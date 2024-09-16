@@ -5,6 +5,10 @@ import { TiWeatherCloudy } from "react-icons/ti";
 import { IoLocationOutline } from "react-icons/io5";
 
 
+
+interface WeatherResponse {
+    temperature: number;
+    humidity: number;}
 export default function WeatherApp() {
 
  const [city, setCity] = useState("");
